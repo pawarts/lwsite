@@ -1,10 +1,6 @@
 .wrapper {
     overflow: hidden;
 
-    .warn_screen {
-        display: none;
-    }
-
     .screen_wrap {
         position: relative;
         left: -100vw;
@@ -14,7 +10,6 @@
         background-repeat: no-repeat;
         width: 300vw;
         transition: .8s;
-        overflow: hidden;
 
         .screen {
             height: 100vh;
